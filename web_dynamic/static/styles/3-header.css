@@ -3,6 +3,7 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    position: relative;
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
@@ -15,12 +16,12 @@ header .logo {
     height: 40px;
     background-color: #cccccc;
     border-radius: 50%;
-    position: absolute;
     right: 30px;
     top: 50%;
     transform: translateY(-50%);
+    position: absolute;
 }
 
-.available {
+header #api_status.available {
     background-color: #ff545f;
 }
